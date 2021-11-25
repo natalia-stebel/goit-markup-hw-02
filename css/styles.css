@@ -58,7 +58,7 @@ ul {
   color: #2196f3;
 }
 
-<!--Hero-- > .hero-background-color {
+<!--Hero-- > .hero-background {
   background-color: #2f303a;
   position: absolute;
   width: 1600px;
@@ -66,7 +66,7 @@ ul {
   top: 80px;
 }
 
-.hero .title {
+.title {
   color: var(--accent-color);
   font-size: 44px;
   line-height: 1.4;
