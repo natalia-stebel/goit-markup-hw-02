@@ -84,9 +84,6 @@ ul {
 
 <!--Features-- >
 
-h3
-{color: var (--title-text-color);}
-
 .features-title {
   color: var(--title-text-color);
   font-style: Bold;
@@ -101,6 +98,7 @@ h3
   line-height: 1.7;
   letter-spacing: 3%;
 }
-
+h3
+{color: var (--title-text-color);}
 
 }
