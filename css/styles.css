@@ -99,3 +99,8 @@ ul {
   line-height: 1.7;
   letter-spacing: 3%;
 }
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
