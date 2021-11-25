@@ -81,21 +81,20 @@ ul {
   letter-spacing: 6%;
 }
 
-<!--Features-- > .section {
+<!--Features-- > .title-features {
+  color: var(--title-text-color);
   font-style: Bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 3%;
 }
 
-.section .text {
+.feautures-text {
   font-style: Regular;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 3%;
 }
 
-h2,
-h3 {
-  color: var(--title-text-color);
+
 }
