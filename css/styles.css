@@ -16,14 +16,16 @@ body {
   text-decoration: none;
 }
 
-<!--Шапка сайта-- > .site-nav {
+/* <!--Шапка сайта-- >  */
+
+  .site-nav {
   text-decoration: none;
   color: var (--title-text-color);
 }
 
 .logo {
   font-family: Raleway, sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 3%;
@@ -52,15 +54,27 @@ ul {
   letter-spacing: 2%;
   text-decoration: none;
 }
+.contact-link .link {
+  color: var(--title-text-color);
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  text-decoration: none;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
 }
+.contact-link .link:hover,
+.contact-link .link:focus {
+  color: #2196f3;
 
-<!--Hero-- > 
+/* <!--Hero-- >  */
+
 .hero-section {
-  background-color: #2F303A;
+background-color: #2F303A;
 }
 
 .title-hero {
@@ -81,11 +95,8 @@ ul {
   text-align: Center;
   letter-spacing: 6%;
 }
-h2, h3
-{color: var (--title-text-color);}
 
-
-<!--Features-- >
+/* <!--Features--> */
 
 .features-title {
   color: var(--title-text-color);
@@ -94,6 +105,9 @@ h2, h3
   line-height: 1.14;
   letter-spacing: 3%;
 }
+.title-color {
+  color: var(--title-text-color);}
+
 
 .feautures-text {
   font-style: Regular;
@@ -102,5 +116,5 @@ h2, h3
   letter-spacing: 3%;
 }
 
+/* <!--Activity-- > */
 
-}
