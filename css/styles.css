@@ -14,7 +14,6 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
   text-decoration: none;
-  background-color: chartreuse;
 }
 
 <!--Шапка сайта-- > .site-nav {
