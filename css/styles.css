@@ -1,0 +1,83 @@
+/*цвет текста заголовков #212121 */
+/*цвет основного текста #757575 */
+/*цвет кнопки main #2196F3 */
+/*цвет текста героя #FFFFFF*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #ffffff;
+  --navigation-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+<!--Шапка сайта-- > .site-nav {
+  text-decoration: none;
+  color: var (--title-text-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 3%;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-color {
+  font-family: Raleway, sans-serif;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 3%;
+  color: var(--navigation-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+<!--Hero-- > .hero .title {
+  color: var(--accent-color);
+  font-size: 44px;
+  line-height: 1.4;
+  vertical-align: Top;
+  letter-spacing: 6%;
+  text-align: center;
+}
+
+<!--Features-- > .section .title {
+  color: var (--title-text-color);
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 3%;
+}
+
+.section .text {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+}
