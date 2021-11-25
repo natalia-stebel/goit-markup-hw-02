@@ -83,7 +83,7 @@ ul {
 }
 
 <!--Features-- > 
-.feature-section .title-features {
+.features-titles {
   color: var(--title-text-color);
   font-style: Bold;
   font-size: 14px;
