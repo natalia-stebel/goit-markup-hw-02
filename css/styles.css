@@ -78,6 +78,11 @@ ul {
 .button-primary {
   color: var(--accent-color);
   background-color: #2196f3;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: Center;
+  letter-spacing: 6%;
 }
 
 <!--Features-- > .section .title {
