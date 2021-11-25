@@ -86,7 +86,6 @@ ul {
 }
 
 <!--Features-- > .section {
-  color: var (--title-text-color);
   font-style: Bold;
   font-size: 14px;
   line-height: 1.14;
