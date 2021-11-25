@@ -63,7 +63,7 @@ ul {
   background: #2f303a;
 }
 
-.title {
+.title-hero {
   color: var(--accent-color);
   font-size: 44px;
   line-height: 1.4;
@@ -82,7 +82,8 @@ ul {
   letter-spacing: 6%;
 }
 
-<!--Features-- > .title-features {
+<!--Features-- > 
+.title-features {
   color: var(--title-text-color);
   font-style: Bold;
   font-size: 14px;
