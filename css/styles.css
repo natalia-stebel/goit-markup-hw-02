@@ -81,6 +81,9 @@ ul {
   text-align: Center;
   letter-spacing: 6%;
 }
+h2, h3
+{color: var (--title-text-color);}
+
 
 <!--Features-- >
 
@@ -98,7 +101,6 @@ ul {
   line-height: 1.7;
   letter-spacing: 3%;
 }
-h2, h3
-{color: var (--title-text-color);}
+
 
 }
