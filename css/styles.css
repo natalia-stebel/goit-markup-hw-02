@@ -14,6 +14,7 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
   text-decoration: none;
+  background-color: chartreuse;
 }
 
 <!--Шапка сайта-- > .site-nav {
@@ -58,7 +59,15 @@ ul {
   color: #2196f3;
 }
 
-<!--Hero-- > .hero .title {
+<!--Hero-- > .hero {
+  background-color: #2f303a;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+}
+
+.hero .title {
   color: var(--accent-color);
   font-size: 44px;
   line-height: 1.4;
