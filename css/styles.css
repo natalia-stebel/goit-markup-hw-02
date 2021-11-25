@@ -85,7 +85,7 @@ ul {
   letter-spacing: 6%;
 }
 
-<!--Features-- > section .title-features {
+<!--Features-- > .section {
   color: var (--title-text-color);
   font-style: Bold;
   font-size: 14px;
