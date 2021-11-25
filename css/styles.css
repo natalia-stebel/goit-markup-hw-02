@@ -83,14 +83,14 @@ ul {
 }
 
 <!--Features-- > 
-.features-titles {
+.features-title {
   color: var(--title-text-color);
   font-style: Bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 3%;
 }
-.features-title-color 
+.features-section .title-color 
 {color: var (--title-text-color);}
 
 .feautures-text {
