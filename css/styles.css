@@ -82,7 +82,11 @@ ul {
   letter-spacing: 6%;
 }
 
-<!--Features-- > 
+<!--Features-- >
+
+h3
+{color: var (--title-text-color);}
+
 .features-title {
   color: var(--title-text-color);
   font-style: Bold;
@@ -90,8 +94,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 3%;
 }
-.features-section .title-color 
-{color: var (--title-text-color);}
 
 .feautures-text {
   font-style: Regular;
