@@ -108,6 +108,7 @@ ul {
 }
 .title-color {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .feautures-text {
@@ -126,6 +127,11 @@ ul {
   text-align: Center;
   letter-spacing: 3%;
 }
+
+.image-link {
+  text-decoration: none;
+}
+
 .image-link:hover,
 .image-link:active {
   color: currentColor;
@@ -197,5 +203,11 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 6%;
-  text-decoration: none;
+}
+
+.works-text {
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 3%;
 }
