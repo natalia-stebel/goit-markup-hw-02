@@ -61,11 +61,11 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--navigation-color);
 }
 .contact-link .link:hover,
 .contact-link .link:focus {
-  color: #2196f3;
+  color: var(--navigation-color);
 }
 
 /* <!--Hero-- >  */
@@ -152,4 +152,21 @@ ul {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 3%;
+}
+/* <!--Footer-- > */
+
+.adress-section {
+  background-color: var(--dark-backgroung-color);
+}
+
+.adress-text {
+  color: var(--accent-color);
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+}
+
+.text-color {
+  color: (255, 255, 255, 0.6);
 }
