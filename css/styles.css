@@ -118,6 +118,13 @@ ul {
 
 /* <!--Activities-- > */
 
+.activities-title {
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: Center;
+  letter-spacing: 3%;
+}
 .image-link:hover,
 .image-link:active {
   color: currentColor;
