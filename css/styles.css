@@ -50,7 +50,7 @@ ul {
   letter-spacing: 2%;
   text-decoration: none;
 }
-.contact-link {
+.contacts-link {
   color: var(--title-text-color);
   font-style: 500;
   font-size: 14px;
@@ -63,8 +63,8 @@ ul {
 .navigation-link:focus {
   color: var(--navigation-color);
 }
-.contact-link:hover,
-.contact-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--navigation-color);
 }
 
@@ -176,7 +176,7 @@ ul {
   text-decoration: none;
 }
 
-/* * <!--Footer-- > */ 
+/* * <!--Works-- > */
 
 .button-secondary {
   color: var(--accent-color);
@@ -190,3 +190,12 @@ ul {
 .button-secondary:hover,
 .button-secondary:focus {
   color: #2196f3;
+}
+
+.works-title {
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+  text-decoration: none;
+}
