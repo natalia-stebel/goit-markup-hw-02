@@ -42,7 +42,7 @@ ul {
   list-style: none;
 }
 
-.site-nav .link {
+.navigation-link {
   color: var(--title-text-color);
   font-style: 500;
   font-size: 14px;
@@ -50,7 +50,7 @@ ul {
   letter-spacing: 2%;
   text-decoration: none;
 }
-.contact-link .link {
+.contact-link {
   color: var(--title-text-color);
   font-style: 500;
   font-size: 14px;
@@ -59,12 +59,12 @@ ul {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--navigation-color);
 }
-.contact-link .link:hover,
-.contact-link .link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--navigation-color);
 }
 
@@ -175,3 +175,18 @@ ul {
   font-style: normal;
   text-decoration: none;
 }
+
+/* * <!--Footer-- > */ 
+
+.button-secondary {
+  color: var(--accent-color);
+  background-color: #2196f3;
+  font-style: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 6%;
+  cursor: pointer;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: #2196f3;
