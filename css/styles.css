@@ -44,7 +44,7 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
-  font-style: Medium;
+  font-style: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 2%;
@@ -52,7 +52,7 @@ ul {
 }
 .contact-link .link {
   color: var(--title-text-color);
-  font-style: Medium;
+  font-style: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 2%;
@@ -80,6 +80,7 @@ ul {
   line-height: 1.4;
   letter-spacing: 6%;
   font-weight: 900;
+  text-align: center;
 }
 
 .button-primary {
@@ -90,12 +91,16 @@ ul {
   line-height: 1.9;
   letter-spacing: 6%;
 }
+.button-primary:hover,
+.button-primary:focus {
+  color: #2196f3;
+}
 
 /* <!--Features--> */
 
 .features-title {
   color: var(--title-text-color);
-  font-style: Bold;
+  font-style: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 3%;
@@ -105,10 +110,15 @@ ul {
 }
 
 .feautures-text {
-  font-style: Regular;
+  font-style: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 3%;
 }
 
-/* <!--Activity-- > */
+/* <!--Activities-- > */
+
+.image-link:hover,
+.image-link:active {
+  color: currentColor;
+}
