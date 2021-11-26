@@ -1,13 +1,9 @@
-/*цвет текста заголовков #212121 */
-/*цвет основного текста #757575 */
-/*цвет кнопки main #2196F3 */
-/*цвет текста героя #FFFFFF*/
-
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #ffffff;
   --navigation-color: #2196f3;
+  --dark-background-color: #2f303a;
 }
 
 body {
@@ -18,7 +14,7 @@ body {
 
 /* <!--Шапка сайта-- >  */
 
-  .site-nav {
+.site-nav {
   text-decoration: none;
   color: var (--title-text-color);
 }
@@ -70,29 +66,28 @@ ul {
 .contact-link .link:hover,
 .contact-link .link:focus {
   color: #2196f3;
+}
 
 /* <!--Hero-- >  */
 
 .hero-section {
-background-color: #2F303A;
+  background-color: var(--dark-background-color);
 }
 
 .title-hero {
   color: var(--accent-color);
   font-size: 44px;
   line-height: 1.4;
-  vertical-align: Top;
   letter-spacing: 6%;
-  text-align: center;
+  font-weight: 900;
 }
 
 .button-primary {
   color: var(--accent-color);
   background-color: #2196f3;
-  font-style: Bold;
+  font-style: 700;
   font-size: 16px;
   line-height: 1.9;
-  text-align: Center;
   letter-spacing: 6%;
 }
 
@@ -106,8 +101,8 @@ background-color: #2F303A;
   letter-spacing: 3%;
 }
 .title-color {
-  color: var(--title-text-color);}
-
+  color: var(--title-text-color);
+}
 
 .feautures-text {
   font-style: Regular;
@@ -117,4 +112,3 @@ background-color: #2F303A;
 }
 
 /* <!--Activity-- > */
-
