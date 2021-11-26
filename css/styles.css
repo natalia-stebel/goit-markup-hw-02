@@ -51,7 +51,7 @@ ul {
   text-decoration: none;
 }
 .contacts-link {
-  color: var(--title-text-color);
+  color: #757575;
   font-style: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -91,10 +91,7 @@ ul {
   line-height: 1.9;
   letter-spacing: 6%;
   cursor: pointer;
-}
-.button-primary:hover,
-.button-primary:focus {
-  color: #2196f3;
+  font-family: inherit;
 }
 
 /* <!--Features--> */
@@ -185,17 +182,18 @@ ul {
 /* * <!--Works-- > */
 
 .button-secondary {
-  color: var(--accent-color);
-  background-color: #2196f3;
-  font-style: 700;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-style: 500;
   font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 6%;
+  line-height: 1.6;
+  letter-spacing: 3%;
   cursor: pointer;
+  font-family: inherit;
 }
 .button-secondary:hover,
 .button-secondary:focus {
-  color: #2196f3;
+  background-color: #2196f3;
 }
 
 .works-title {
