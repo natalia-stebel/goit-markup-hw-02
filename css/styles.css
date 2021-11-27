@@ -48,6 +48,10 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  .navigation-link .current {
+    color: var(--accent-color);
+  }
 }
 .contacts-link {
   color: #757575;
@@ -170,6 +174,9 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.adress-logo {
+  color: var(--accent-color);
 }
 
 .text-color {
