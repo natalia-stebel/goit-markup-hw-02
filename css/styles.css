@@ -15,7 +15,7 @@ body {
 
 .site-nav {
   text-decoration: none;
-  color: var (--title-text-color);
+  color: var(--title-text-color);
 }
 
 .logo {
@@ -23,17 +23,17 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: black;
 }
 
 .logo-color {
   font-family: Raleway, sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--navigation-color);
 }
 
@@ -43,18 +43,18 @@ ul {
 
 .navigation-link {
   color: var(--title-text-color);
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .contacts-link {
   color: #757575;
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ ul {
   color: var(--accent-color);
   font-size: 44px;
   line-height: 1.4;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   font-weight: 900;
   text-align: center;
 }
@@ -85,10 +85,10 @@ ul {
 .button-primary {
   color: var(--accent-color);
   background-color: #2196f3;
-  font-style: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   cursor: pointer;
   font-family: inherit;
 }
@@ -97,10 +97,10 @@ ul {
 
 .features-title {
   color: var(--title-text-color);
-  font-style: 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .title-color {
   color: var(--title-text-color);
@@ -108,20 +108,20 @@ ul {
 }
 
 .feautures-text {
-  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 /* <!--Activities-- > */
 
 .activities-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: Center;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .image-link {
@@ -136,25 +136,25 @@ ul {
 /* <!--Team-- > */
 
 .team-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: Center;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .team-names {
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .team-possition {
-  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 /* <!--Footer-- > */
 
@@ -164,16 +164,15 @@ ul {
 
 .adress-text {
   color: var(--accent-color);
-  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .text-color {
-  color: rgb (255, 255, 255, 0.6);
+  color: rgb(255, 255, 255, 0.6);
 }
-
 .adress-style {
   font-style: normal;
   text-decoration: none;
@@ -184,10 +183,10 @@ ul {
 .button-secondary {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   cursor: pointer;
   font-family: inherit;
 }
@@ -197,15 +196,19 @@ ul {
 }
 
 .works-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
+}
+.works-title:hover,
+.works-title:focus {
+  color: var(--navigation-color);
 }
 
 .works-text {
-  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
