@@ -49,6 +49,16 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.navigation-link-current {
+  color: var(--navigation-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .contacts-link {
   color: #757575;
   font-weight: 500;
