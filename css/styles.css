@@ -9,7 +9,6 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 
 /* <!--Шапка сайта-- >  */
@@ -127,11 +126,12 @@ ul {
 
 .image-link {
   text-decoration: none;
+  color: #757575;
 }
 
 .image-link:hover,
 .image-link:active {
-  color: currentColor;
+  color: var(--navigation-color);
 }
 /* <!--Team-- > */
 
@@ -159,7 +159,7 @@ ul {
 /* <!--Footer-- > */
 
 .adress-section {
-  background-color: var(--dark-backgroung-color);
+  background-color: var(--dark-background-color);
 }
 
 .adress-text {
