@@ -41,7 +41,7 @@ ul {
   list-style: none;
 }
 
-.navigation-link {
+.navigation-link-main {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -68,8 +68,8 @@ ul {
   text-decoration: none;
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.navigation-link-main:hover,
+.navigation-link-main:focus {
   color: var(--navigation-color);
 }
 .contacts-link:hover,
